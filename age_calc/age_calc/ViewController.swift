@@ -17,22 +17,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    
     @IBAction func ageCalc(_ sender: Any) {
-        if let age = ageInput.text, let intAge = Int(age) {
-            let curr = 2025
+        if let ageText = ageInput.text, let birthYear = Int(ageText) {
+            let calendar = Calendar.current
+            let currentYear = calendar.component(.year, from: Date())
             
-            if curr <= intAge {
-                ageAns.text = "Enter a valid age"
+            if birthYear > currentYear || birthYear < 1900 {
+                ageAns.text = "Enter a valid birth year"
             } else {
-                let ans = curr - intAge
-                ageAns.text = "Your age is \(ans)"
+                let age = currentYear - birthYear
+                ageAns.text = "Your age is \(age)"
             }
         } else {
             ageAns.text = "Invalid Input"
         }
     }
-    
 }
-
