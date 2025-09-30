@@ -20,13 +20,35 @@ class ViewController: UIViewController, UITableViewDataSource {
         "Frenkie De Jong"
     ]
     
+    struct Assign {
+        var ID: Int
+        var Name: String
+        var Age: Int
+        var Major: String
+    }
+    
+    var assign: [Assign] = [
+        Assign(ID: 1, Name: "Saatvik", Age: 21, Major: "CSE"),
+        Assign(ID: 2, Name: "Pavneesh", Age: 21, Major: "CSE")
+    ]
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return arr.count
+        return assign.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = arr[indexPath.row]
+        
+        
+        let data = assign[indexPath.row]
+        cell.textLabel?.font = UIFont.monospacedSystemFont(ofSize: 14, weight: .regular)
+        cell.textLabel?.text = String (
+            format: "%-10d %-10s %-8d %-10s",
+            data.ID,
+            (data.Name as NSString).utf8String!,
+            data.Age,
+            (data.Major as NSString).utf8String!
+        )
         return cell
     }
     
