@@ -19,9 +19,6 @@ class BasicCollectionViewController: UICollectionViewController {
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
-        // Register cell classes
-//        
-
         collectionView.setCollectionViewLayout(generateLayout(), animated: true)
     }
     
