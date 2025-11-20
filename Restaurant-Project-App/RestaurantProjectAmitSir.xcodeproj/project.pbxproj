@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		195C80822ECD9F0E00380778 /* Restaurant-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaurant-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E5E3082ECDCF2000A37821 /* RestaurantProjectAmitSir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantProjectAmitSir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		195C80942ECD9F0F00380778 /* Exceptions for "Restaurant-App" folder in "Restaurant-App" target */ = {
+		19E5E31A2ECDCF2100A37821 /* Exceptions for "RestaurantProjectAmitSir" folder in "RestaurantProjectAmitSir" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 195C80812ECD9F0E00380778 /* Restaurant-App */;
+			target = 19E5E3072ECDCF2000A37821 /* RestaurantProjectAmitSir */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		195C80842ECD9F0E00380778 /* Restaurant-App */ = {
+		19E5E30A2ECDCF2000A37821 /* RestaurantProjectAmitSir */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				195C80942ECD9F0F00380778 /* Exceptions for "Restaurant-App" folder in "Restaurant-App" target */,
+				19E5E31A2ECDCF2100A37821 /* Exceptions for "RestaurantProjectAmitSir" folder in "RestaurantProjectAmitSir" target */,
 			);
-			path = "Restaurant-App";
+			path = RestaurantProjectAmitSir;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		195C807F2ECD9F0E00380778 /* Frameworks */ = {
+		19E5E3052ECDCF2000A37821 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		195C80792ECD9F0E00380778 = {
+		19E5E2FF2ECDCF2000A37821 = {
 			isa = PBXGroup;
 			children = (
-				195C80842ECD9F0E00380778 /* Restaurant-App */,
-				195C80832ECD9F0E00380778 /* Products */,
+				19E5E30A2ECDCF2000A37821 /* RestaurantProjectAmitSir */,
+				19E5E3092ECDCF2000A37821 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		195C80832ECD9F0E00380778 /* Products */ = {
+		19E5E3092ECDCF2000A37821 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				195C80822ECD9F0E00380778 /* Restaurant-App.app */,
+				19E5E3082ECDCF2000A37821 /* RestaurantProjectAmitSir.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		195C80812ECD9F0E00380778 /* Restaurant-App */ = {
+		19E5E3072ECDCF2000A37821 /* RestaurantProjectAmitSir */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 195C80952ECD9F0F00380778 /* Build configuration list for PBXNativeTarget "Restaurant-App" */;
+			buildConfigurationList = 19E5E31B2ECDCF2100A37821 /* Build configuration list for PBXNativeTarget "RestaurantProjectAmitSir" */;
 			buildPhases = (
-				195C807E2ECD9F0E00380778 /* Sources */,
-				195C807F2ECD9F0E00380778 /* Frameworks */,
-				195C80802ECD9F0E00380778 /* Resources */,
+				19E5E3042ECDCF2000A37821 /* Sources */,
+				19E5E3052ECDCF2000A37821 /* Frameworks */,
+				19E5E3062ECDCF2000A37821 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				195C80842ECD9F0E00380778 /* Restaurant-App */,
+				19E5E30A2ECDCF2000A37821 /* RestaurantProjectAmitSir */,
 			);
-			name = "Restaurant-App";
+			name = RestaurantProjectAmitSir;
 			packageProductDependencies = (
 			);
-			productName = "Restaurant-App";
-			productReference = 195C80822ECD9F0E00380778 /* Restaurant-App.app */;
+			productName = RestaurantProjectAmitSir;
+			productReference = 19E5E3082ECDCF2000A37821 /* RestaurantProjectAmitSir.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		195C807A2ECD9F0E00380778 /* Project object */ = {
+		19E5E3002ECDCF2000A37821 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					195C80812ECD9F0E00380778 = {
+					19E5E3072ECDCF2000A37821 = {
 						CreatedOnToolsVersion = 26.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 195C807D2ECD9F0E00380778 /* Build configuration list for PBXProject "Restaurant-App" */;
+			buildConfigurationList = 19E5E3032ECDCF2000A37821 /* Build configuration list for PBXProject "RestaurantProjectAmitSir" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 195C80792ECD9F0E00380778;
+			mainGroup = 19E5E2FF2ECDCF2000A37821;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 195C80832ECD9F0E00380778 /* Products */;
+			productRefGroup = 19E5E3092ECDCF2000A37821 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				195C80812ECD9F0E00380778 /* Restaurant-App */,
+				19E5E3072ECDCF2000A37821 /* RestaurantProjectAmitSir */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		195C80802ECD9F0E00380778 /* Resources */ = {
+		19E5E3062ECDCF2000A37821 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		195C807E2ECD9F0E00380778 /* Sources */ = {
+		19E5E3042ECDCF2000A37821 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		195C80962ECD9F0F00380778 /* Debug */ = {
+		19E5E31C2ECDCF2100A37821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -146,7 +146,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Restaurant-App/Info.plist";
+				INFOPLIST_FILE = RestaurantProjectAmitSir/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -157,7 +157,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tanmay.saxena.Restaurant-App";
+				PRODUCT_BUNDLE_IDENTIFIER = none.RestaurantProjectAmitSir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -169,7 +169,7 @@
 			};
 			name = Debug;
 		};
-		195C80972ECD9F0F00380778 /* Release */ = {
+		19E5E31D2ECDCF2100A37821 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -177,7 +177,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Restaurant-App/Info.plist";
+				INFOPLIST_FILE = RestaurantProjectAmitSir/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -188,7 +188,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tanmay.saxena.Restaurant-App";
+				PRODUCT_BUNDLE_IDENTIFIER = none.RestaurantProjectAmitSir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -200,7 +200,7 @@
 			};
 			name = Release;
 		};
-		195C80982ECD9F0F00380778 /* Debug */ = {
+		19E5E31E2ECDCF2100A37821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		195C80992ECD9F0F00380778 /* Release */ = {
+		19E5E31F2ECDCF2100A37821 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		195C807D2ECD9F0E00380778 /* Build configuration list for PBXProject "Restaurant-App" */ = {
+		19E5E3032ECDCF2000A37821 /* Build configuration list for PBXProject "RestaurantProjectAmitSir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				195C80982ECD9F0F00380778 /* Debug */,
-				195C80992ECD9F0F00380778 /* Release */,
+				19E5E31E2ECDCF2100A37821 /* Debug */,
+				19E5E31F2ECDCF2100A37821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		195C80952ECD9F0F00380778 /* Build configuration list for PBXNativeTarget "Restaurant-App" */ = {
+		19E5E31B2ECDCF2100A37821 /* Build configuration list for PBXNativeTarget "RestaurantProjectAmitSir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				195C80962ECD9F0F00380778 /* Debug */,
-				195C80972ECD9F0F00380778 /* Release */,
+				19E5E31C2ECDCF2100A37821 /* Debug */,
+				19E5E31D2ECDCF2100A37821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 195C807A2ECD9F0E00380778 /* Project object */;
+	rootObject = 19E5E3002ECDCF2000A37821 /* Project object */;
 }

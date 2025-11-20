@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Restaurant-App
+//  RestaurantProjectAmitSir
 //
 //  Created by SDC-USER on 19/11/25.
 //
